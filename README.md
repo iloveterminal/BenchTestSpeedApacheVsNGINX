@@ -11,7 +11,9 @@ The results of a series of [ApacheBench](https://httpd.apache.org/docs/2.4/progr
 
 ## Method:
 
-Used [ApacheBench](https://httpd.apache.org/docs/2.4/programs/ab.html) to run 3 iterations each of 100 concurrent requests repeated 10 times, on 3 different resources (small HTML file, medium JavaScript file, large CSS file). Example of command used: `ab -c 100 -n 10 http://IP_ADDRESS:80/css/full_sparkle.css;`.
+Used [ApacheBench](https://httpd.apache.org/docs/2.4/programs/ab.html) to run 3 iterations each of 100 concurrent requests repeated 10 times, on 3 different resources (small HTML file, medium JavaScript file, large CSS file). Example of command used:
+
+`ab -c 100 -n 10 http://IP_ADDRESS:80/css/full_sparkle.css;`
 
 ## Results:
 
@@ -109,6 +111,6 @@ Time per request: 1994.575 [ms] (mean)
 
 <br />
 
-**Total average**: (13.0% + 7.0% + 13.8%) / 3 = 11.3%.
+**Total average**: (13.0% + 7.0% + 13.8%) / 3 = 11.3%
 
 ### NGINX is on average 11.3% faster than Apache.
